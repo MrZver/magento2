@@ -1,0 +1,25 @@
+{
+    "name": "dev/blog",
+    "description": "Blog Module",
+    "minimum-stability": "dev",
+    "require": {},
+    "license": [
+        "proprietary"
+    ],
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Yurii Kliauz",
+            "email": "mrzver@gmail.com",
+            "homepage": "https://github.com/MrZver",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Dev\\Blog\\": ""
+        }
+    }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Blog
+ * 
+ * @author Yurii Kliauz
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<update id="Dev::core"
+			 title="Blog Module"
+			 module="Magento_Backend"
+			 sortOrder="9999"
+			 resource="Magento_Backend::content" />
+		<add id="Dev_Blog::section"
+			 title="Blog"
+			 module="Dev_Blog"
+			 sortOrder="0"
+			 parent="Dev::core"
+			 resource="Dev_Blog::section" />
+		<add id="Dev_Blog::categories"
+			 title="Categories"
+			 module="Dev_Blog"
+			 sortOrder="1"
+			 parent="Dev_Blog::section"
+			 action="dev_blog/categories"
+			 resource="Dev_Blog::categories" />
+		<add id="Dev_Blog::posts"
+			 title="Posts"
+			 module="Dev_Blog"
+			 sortOrder="2"
+			 parent="Dev_Blog::section"
+			 action="dev_blog/posts"
+			 resource="Dev_Blog::posts" />
+	</menu>
+</config>

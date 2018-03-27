@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Blog
+ * 
+ * @author Yurii Kliauz
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<dev_developer>
+			<contacts>
+				<skype>mrzver</skype>
+				<github>MrZver</github>
+				<marketplace>Yurii Kliauz</marketplace>
+			</contacts>
+		</dev_developer>
+		<dev_blog>
+			<general>
+				<active>1</active>
+				<default_category>0</default_category>
+			</general>
+		</dev_blog>
+	</default>
+</config>

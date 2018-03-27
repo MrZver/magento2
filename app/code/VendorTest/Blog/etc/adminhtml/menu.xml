@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-	<menu>
-		<add id="VendorTest_Blog::blogs" title="Blogs" module="VendorTest_Blog" sortOrder="51" resource="VendorTest_Blog::blogs"/>
-		<add id="VendorTest_Blog::post" title="Manage Posts" module="VendorTest_Blog" sortOrder="10" action="vendortest_blog/post" resource="VendorTest_Blog::post" parent="VendorTest_Blog::blogs"/>
-	</menu>
-</config>

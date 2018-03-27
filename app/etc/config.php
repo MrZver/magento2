@@ -2,6 +2,7 @@
 return array (
   'modules' => 
   array (
+    'Dev_Blog' => 0,
     'Magento_Store' => 1,
     'Magento_Directory' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
@@ -120,5 +121,6 @@ return array (
     'Magento_WishlistAnalytics' => 1,
     'Shopial_Facebook' => 1,
     'Temando_Shipping' => 1,
+    'VendorTest_Blog' => 1,
   ),
 );

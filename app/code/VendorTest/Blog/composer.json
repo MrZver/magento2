@@ -1,0 +1,22 @@
+{
+    "name": "vendortest/module-blog",
+    "description": "Blog Test Module",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "mrzver@gmail.com",
+            "name": "MrZver"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "VendorTest\\Blog\\": ""
+        }
+    }
+}

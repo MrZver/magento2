@@ -3,6 +3,7 @@ return array (
   'modules' => 
   array (
     'Dev_Blog' => 1,
+    'Dev_Catalog' => 1,
     'Magento_Store' => 1,
     'Magento_Directory' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
